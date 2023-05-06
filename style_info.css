@@ -38,9 +38,9 @@ h1 {
 }
  .text {
     border:dotted 10px blue;
-    background-image:linear-gradient(to left, green, darkgreen);
-    font-size:30px;
-    
+    background-image:linear-gradient(to left, navy, rgba(114, 0, 143, 0.521));
+    font-size:50px;
+    color:white;
 }
 .footer {
     text-align:center;
@@ -57,20 +57,44 @@ ul {
 .img {
     border:solid 20px darkslategray;
 }
+.text-big {
+    color:white;
+    text-align:center;
+    font-size:50px;
+    background-image:linear-gradient(to left, darkorange,orange);
+}
+.link-text {
+    background-image: linear-gradient(to left, black,white);
+        text-decoration:none;
+    color:rgb(187, 0, 0);
+}
+.text-main {
+
+}
+h2 {
+    background-image:linear-gradient(to left,darkblue,red);
+    text-align:center;
+    font-size:30px;
+    color:white;
+}
+ol {
+    background-color: rgb(44, 44, 100);
+    color:rgb(192, 192, 192);
+    font-size:40px;
+    border:dotted 5px orange;
+}
 .inst:hover {
     transition:1s ease-out;
     width:120px;
     height:120px;
 }
-.img about:hover{
-    transition:3s ease-out;
-    width:150px;
-    height:150px;
-
+p {
+    padding:20px ;
+    margin:10px;
 }
-.ya {
-    background-image:linear-gradient(to left , grey,black);
-    font-size:30px;
+.infa {
     color:white;
-border:solid 5px black;
+    background-color:black;
+    border:2px grey solid;
+    font-size: 30px;
 }
